@@ -40,7 +40,7 @@ GOOGLE_SERVICE_ACCOUNT_UNIVERSE_DOMAIN=googleapis.com
 Para levantar la aplicación utilizando Docker Compose, ejecuta el siguiente comando en el directorio raíz del proyecto:
 
 ```
-docker-compose up -d
+docker-compose build && docker-compose up -d
 ```
 
 Esto levantará tanto el frontend como el backend de la aplicación.
